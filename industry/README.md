@@ -7,6 +7,7 @@
 | `taxonomy.ts` | 分类、标签、公司与机构、防止模型写错公司的词表，这个行业最受关注的那类发布（`RELEASE`） |
 | `topics.json` | 主题目录（`/topics`），站点启动时读取 |
 | `sources.json` | 首次启动时导入的示范信源 |
+| `naver-search-sources.md` | Naver 搜索 API 信源（要密钥，在后台建）的配置和关键词 |
 | `prompts/` | 每一步的提示词：预筛、评分、写作、结构化、归组、事件综述、周报月报、翻译 |
 | `selection.ts` | 入选门槛 |
 | `gold.example.jsonl` | 精选评测样本的格式示例 |

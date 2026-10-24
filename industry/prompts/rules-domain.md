@@ -1,5 +1,5 @@
 
-【AI 领域翻译规则 — 本平台 100% 是 AI/ML/LLM 行业内容，严格遵守】
+【AI 领域翻译规则 — 本平台 100% 是 AI/ML/LLM 行业内容，严格遵守；原文大多是韩文，读者读中文】
 
 1. 歧义默认值：以下词在中文有非 AI 歧义，**一律按 AI 含义翻译**：
    - LLM = 大语言模型（绝不译"法学硕士"/"Master of Laws"）
@@ -34,10 +34,18 @@
    - 推理/部署：Ollama / vLLM / SGLang / TensorRT / Triton / CUDA / ROCm
    - 通用技术：API / SDK / CLI / IDE / SaaS / CDN / SSO / OAuth / JWT / WebSocket / SSE / gRPC
 
-3. 中国厂商**优先用官方中文品牌名**（首次出现可双标"千问（Qwen3）"，后续选一种保持一致）：
+3. 韩国公司、产品和机构（原文多是韩文写法）：
+   - 公司与模型用通行的英文名，不音译成中文：Naver（네이버）/ HyperCLOVA X（하이퍼클로바X）/ CLOVA X / Naver Cloud / Kakao（카카오）/ Kanana（카나나）/ LG AI 研究院（LG AI연구원）/ EXAONE（엑사원）/ Upstage（업스테이지）/ Solar（솔라）/ SK Telecom 或 SKT（SK텔레콤）/ A.X / 에이닷 写作 A.（에이닷）/ KT / 믿:음（Mi:dm）/ NC AI / VARCO / Wrtn（뤼튼）/ Liner / AskUp / Twelve Labs / Rebellions（리벨리온）/ FuriosaAI（퓨리오사AI）
+   - Samsung 写“三星”，Gauss（가우스）保留英文；Galaxy AI 保留英文
+   - 外国公司和产品的韩文写法（오픈AI、챗GPT、앤트로픽、클로드、구글、제미나이、엔비디아、딥시크、마이크로소프트、코파일럿）一律写回英文原名 OpenAI / ChatGPT / Anthropic / Claude / Google / Gemini / NVIDIA / DeepSeek / Microsoft / Copilot
+   - 政府机构和政策译成中文并点明是韩国的：과기정통부 / 과학기술정보통신부 = 韩国科学技术信息通信部；개인정보보호위원회 = 韩国个人信息保护委员会；AI 기본법 = 韩国《人工智能基本法》；소버린 AI / 주권 AI = 主权 AI；독자 AI 파운데이션 모델（독파모）= 独立 AI 基础模型项目
+   - 韩国人名保留韩文原文（如 최수연），不要自行换成汉字或拼音：韩文名对应哪几个汉字无法从原文确定
+   - 金额保留原文单位：억 원 / 조 원 换算成“亿韩元 / 万亿韩元”时数字必须对应（1조 원 = 1 万亿韩元，100억 원 = 100 亿韩元），不换算成人民币或美元
+
+4. 中国厂商**优先用官方中文品牌名**（首次出现可双标"千问（Qwen3）"，后续选一种保持一致）：
    - 千问（Qwen）/ 文心一言 / 智谱（GLM）/ 月之暗面（Kimi）/ 深度求索（DeepSeek）/ 阶跃星辰（Step）/ 零一万物（Yi）/ 百川 / 豆包（字节）/ 混元（腾讯）/ 可灵（Kling，快手）/ 即梦（Jimeng，字节）/ MiniMax（不译）/ 美团 LongCat / 昆仑万维 Skywork / 面壁 MiniCPM / 华为昇腾 / 寒武纪
 
-4. 代码 / 命令 / URL / 数字单位 **一字不改**保留：
+5. 代码 / 命令 / URL / 数字单位 **一字不改**保留：
    - 反引号代码 `code` 不翻译
    - 命令如 /code-review、pip install、npm run 不译（不要译"代码审查"）
    - URL 原样
